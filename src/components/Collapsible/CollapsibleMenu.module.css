@@ -1,0 +1,58 @@
+
+.Button{
+  background-color: #FAFEFE;
+  color: #6177EF;
+  width: 366px;
+  height: 66px;
+  margin-left: 40px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  box-shadow: 0px 3px 12px 2px #A6CBEB;  
+  z-index: 4;
+  position: relative;
+}
+
+.borderBottom{
+  position: fixed;
+  left: 35%;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+}
+
+.UpDown{
+  position: relative;
+  left: 70%;
+  top: 40%;
+}
+
+.Text{
+  position: relative;
+  top: 30%;
+  left: 25%;
+  font-size: x-large;
+}
+
+.ContainerChild{
+  width: 300px;
+  position: relative;
+  margin-top: -30px;
+  padding-top: 20px;
+  margin-left: -90px;
+  background-color: #FAFEFE;
+  color: #6177EF;
+  box-shadow: 0px 3px 12px 2px #A6CBEB;  
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-weight: bold;
+  z-index: 3;
+  min-height: 50px;
+  overflow: hidden;
+}

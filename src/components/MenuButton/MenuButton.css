@@ -1,0 +1,14 @@
+.menu-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .menu-icon-container:hover {
+    opacity: 0.7;
+  }
+  

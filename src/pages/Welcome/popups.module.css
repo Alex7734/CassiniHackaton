@@ -1,0 +1,101 @@
+.popup {
+    /* Popup styling */
+    height: 100px;
+    width: 200px;
+  }
+
+  .popupRoadworksP1 {
+    /* Paragraph styling */
+    color: #9E5454;
+    margin : 0;
+    text-align: center;
+    line-height: 34px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupRoadworksP2 {
+    /* Paragraph styling */
+    color: #BB9E9E;
+    margin : 0;
+    text-align: center;
+    line-height: 17x;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupEventsP1 {
+    /* Paragraph styling */
+    color: #1798a5;
+    margin : 0;
+    text-align: center;
+    line-height: 34px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupEventsP2 {
+    /* Paragraph styling */
+    color: #6698a5;
+    margin : 0;
+    text-align: center;
+    line-height: 17x;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupPowerP1 {
+    /* Paragraph styling */
+    color: #c98d1a;
+    margin : 0;
+    text-align: center;
+    line-height: 34px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupPowerP2 {
+    /* Paragraph styling */
+    color: #a98d1a;
+    margin : 0;
+    text-align: center;
+    line-height: 17x;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupHousingP1 {
+    /* Paragraph styling */
+    color: #20ae49;
+    margin : 0;
+    text-align: center;
+    line-height: 34px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }
+
+  .popupHousingP2 {
+    /* Paragraph styling */
+    color: #6cae6f;
+    margin : 0;
+    text-align: center;
+    line-height: 17x;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Nunito , sans-serif;
+    font-style: 'normal';
+  }

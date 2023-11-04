@@ -1,0 +1,92 @@
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-righ: 10px;
+  }
+
+  .Container{
+    background-image: url("/images/background.png");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .logo{
+    width: 300px;
+    height: 300px;
+  }
+
+  .formgroup {
+    margin-bottom: 20px;
+    width: 300px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }  
+  
+  .inputContainer {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-55%);
+    font-size: 40px;
+    color: rgba(97, 119, 239, 0.25);
+  }
+
+  .icon2{
+    position: absolute;
+    top: 60%;
+    left: 60px;
+    transform: translateY(-40%);
+    font-size: 40px;
+    color: rgba(97, 119, 239, 0.25);
+  }
+
+  input[type="text"], input[type="password"]{
+    padding: 10px;
+    height: 66px;
+    width: 370px;
+    font-size: larger;
+    padding-left: 70px;
+    box-shadow: 0px 3px 12px 2px #A6CBEB;
+    border: none;
+    background-color: #FAFEFE;
+    margin-bottom: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: Nunito, sans-serif;
+  }
+
+  input[type="text"]::placeholder, input[type="password"]::placeholder{
+    filter: opacity(0.3);
+    color: #6177EF;
+  }
+
+  .loginButton{
+    font-family: Nunito, sans-serif;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 66px;
+    width: 370px;
+    color: white;
+    border: none;
+    box-shadow: 0px 3px 12px 2px #A6CBEB;
+    font-size: large;
+    background-color: #6177EF;
+  }
+  

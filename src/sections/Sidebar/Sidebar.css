@@ -1,0 +1,77 @@
+
+
+.MuiListItemButton-root {
+    border-radius: 20px;
+    background-color: #6177EF;
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-weight: 400;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    size: 10px;
+  }
+  
+  .MuiListItemText-root {
+    margin-left: 10px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    scale: 0.8;
+
+  }
+  
+  .sidebar-root {
+    background-image: url('/gridr_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sidebar-background {
+    background-image: url('/gridr_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-paper {
+    width: 240px;
+    overflow: hidden;
+  }
+  
+  .sidebar-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-footer img {
+    margin: 0 5px;
+  }
+  .sidebar-footer-text {
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    left: 236px;
+    top: 854.29px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3363px;
+    line-height: 20px;
+    color: rgba(97, 119, 239, 0.5);
+  }
+  

@@ -1,0 +1,58 @@
+.MainContainer{
+    background-image: url("/images/background.png");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Button{
+    padding-top: 9px;
+    padding-left: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    left: 80%;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6177EF;
+    background-color: white;
+    box-shadow: 0px 3px 12px 2px #A6CBEB;
+    position: fixed;
+    top: 5%;
+    z-index: 2;
+}
+
+.Image{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: -5%;
+    left: 10%;
+}
+
+.Text{
+    font-family: Nunito, sans-serif;
+    color: #6177EF;
+    position: fixed;
+    font-size: 60px;
+    top: 10%;
+    left: 45%;
+}
+
+.Collapsible{
+    position: fixed;
+    top: 40%;
+    flex-direction: row;
+    display: flex;
+}
+
+.Collapsible2{
+    position: fixed;
+    top: 70%;
+    flex-direction: row;
+    display: flex;
+}
