@@ -2,7 +2,7 @@
 
 .MuiListItemButton-root {
     border-radius: 20px;
-    background-color: #6177EF;
+    background-color: #78C51D;
     color: #FFFFFF;
     font-family: 'Nunito';
     font-weight: 400;
@@ -36,7 +36,7 @@
   }
   
   .sidebar-background {
-    background-image: url('/gridr_background.jpg');
+    /*background-image: url('/gridr_background.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

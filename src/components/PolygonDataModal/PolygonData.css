@@ -1,0 +1,16 @@
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background-color: #fff;
+    mso-border-between: #78C51D;
+    z-index: 1;
+}
+
+.top-navigation{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.54);
+    width: 100%;
+}

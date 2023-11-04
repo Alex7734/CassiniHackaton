@@ -14,14 +14,14 @@ mapboxgl.accessToken =
 
 const Map = () => {
   const mapContainer = useRef(null);
-  const [lng, setLng] = useState(21.22571);
-  const [lat, setLat] = useState(45.75372);
+  const [lng, setLng] = useState(23.5928);
+  const [lat, setLat] = useState(46.7729);
   const [zoom, setZoom] = useState(13);
- 
+
  
   
   const logoMarker_roadworks_wrapper = document.createElement('div');
-  logoMarker_roadworks_wrapper.style.backgroundColor = '#ed6e6d';
+  logoMarker_roadworks_wrapper.style.backgroundColor = '#78C51D';
   logoMarker_roadworks_wrapper.style.borderRadius = '70%';
   logoMarker_roadworks_wrapper.style.width = '40px';  
   logoMarker_roadworks_wrapper.style.height = '40px'; 
@@ -35,7 +35,6 @@ const Map = () => {
   logoMarker_roadworks.style.height = '30px';  
 
   logoMarker_roadworks_wrapper.appendChild(logoMarker_roadworks);
-  //end of wraper is style pentru logoMarker_roadworks
 
 
   const popup_st= document.createElement('div');
@@ -43,16 +42,17 @@ const Map = () => {
 
   const popupContent = (
     <div style={{ width: '200px', height: '100px' }}>
-      <h3 style={{ color: '#9E5454', margin: 0, textAlign: 'center', fontSize: '25px', lineHeight: '34px', fontWeight: '700', fontFamily: 'url(Guidr/frontend/public/Nunito/Nunito-VariableFont_wght.ttf)', fontStyle: 'normal' }}>Craft</h3>
-      <p style={{ color: '#BB9E9E', margin: 0, textAlign: 'center', fontSize: '16px', lineHeight: '17px', fontWeight: '500', fontFamily: 'url(Guidr/frontend/public/Nunito/Nunito-VariableFont_wght.ttf)', fontStyle: 'normal' }}>This is the Centrul Regional de Afaceri Timisoara</p>
+      <h3 style={{ color: '#61AB21', margin: 0, textAlign: 'center', fontSize: '25px', lineHeight: '34px', fontWeight: '700', fontFamily: 'url(Guidr/frontend/public/Nunito/Nunito-VariableFont_wght.ttf)', fontStyle: 'normal' }}>Construction</h3>
+      <p style={{ color: '#78C51D', margin: 0, textAlign: 'center', fontSize: '16px', lineHeight: '17px', fontWeight: '500', fontFamily: 'url(Guidr/frontend/public/Nunito/Nunito-VariableFont_wght.ttf)', fontStyle: 'normal' }}>Cluj Innovation Park</p>
+      <a href={"http://localhost:5173/page-1"} style={{ color: '#3A8712', textAlign: 'center', fontSize: '16px', lineHeight: '17px', fontWeight: '500', fontFamily: 'url(Guidr/frontend/public/Nunito/Nunito-VariableFont_wght.ttf)', fontStyle: 'normal', marginTop: '20px', marginLeft: '30%' }}>See more</a>
     </div>
   );
-  
- 
+
+
   const bounds = [
-    [21.148834380930737,45.70095987580634],
-    [21.319834380930737,45.80095987580634]
-  ]as mapboxgl.LngLatBoundsLike;
+    [23.5663, 46.7232],
+    [23.6567, 46.7977],
+  ] as mapboxgl.LngLatBoundsLike;
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -82,8 +82,7 @@ const Map = () => {
 
     map.setMinZoom(11.01);
 
-    const marker1 = new mapboxgl.Marker({element: logoMarker_roadworks_wrapper}).setLngLat([21.240408, 45.745693]).addTo(map);
-
+    const marker1 = new mapboxgl.Marker({element: logoMarker_roadworks_wrapper}).setLngLat([23.5907, 46.7712]).addTo(map); // Cluj coordinates
     const popup = new mapboxgl.Popup({ closeOnClick: true, closeButton: true}).setDOMContent(document.createRange().createContextualFragment(ReactDOMServer.renderToString(popupContent))
     );
 

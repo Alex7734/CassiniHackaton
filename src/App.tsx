@@ -32,9 +32,6 @@ function App() {
   return (
     <>
       <CssBaseline />
-      {showSplashScreen ? (
-        <SplashScreen />
-      ) : loggedIn ? (
         <>
           <Notifications />
           <SW />
@@ -43,9 +40,6 @@ function App() {
             <Pages />
           </BrowserRouter>
         </>
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
     </>
   );
 }

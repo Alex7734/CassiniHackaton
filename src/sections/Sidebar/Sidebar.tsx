@@ -42,23 +42,23 @@ function Sidebar() {
       zIndex: 3
     }}
   >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#6177EF">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#3A8712">
       <path d="M12 9.414l-4.293-4.293-1.414 1.414 4.293 4.293-4.293 4.293 1.414 1.414 4.293-4.293 4.293 4.293 1.414-1.414-4.293-4.293 4.293-4.293-1.414-1.414-4.293 4.293z"/>
     </svg>
   </button>
 </div>
 
         <List sx={{ width: 250, pt: (theme) => `${theme.mixins.toolbar.minHeight}px` }}>
-          <ListItem sx={{ display: 'flex', justifyContent: 'center', my: 2 }}>
-            <img src="/GUIDR_LOGO.png" alt="GUIDR Logo" height="70" />
-          </ListItem>
+          {/*<ListItem sx={{ display: 'flex', justifyContent: 'center', my: 2 }}>*/}
+          {/*  <img src="/GUIDR_LOGO.png" alt="GUIDR Logo" height="70" />*/}
+          {/*</ListItem>*/}
           {Object.values(routes)
             .filter((route) => route.title)
             .map(({ path, title }) => (
               <ListItem sx={{ p: 0, borderRadius: 10 }} key={path}>
                 <ListItemButton
                   sx={{
-                    backgroundColor: '#6177EF',
+                    backgroundColor: '#78C51D',
                     color: '#fff',
                     textTransform: 'none',
                     fontFamily: 'Nunito',
