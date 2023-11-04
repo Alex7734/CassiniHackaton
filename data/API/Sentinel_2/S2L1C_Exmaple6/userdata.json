@@ -1,0 +1,43 @@
+{
+    "scenes": [
+        {
+            "tiles": [
+                {
+                    "date": "2018-12-27T10:08:07Z",
+                    "productId": "S2B_MSIL1C_20181227T100419_N0207_R122_T33TUL_20181227T120856.SAFE",
+                    "shId": 28668601,
+                    "cloudCoverage": 54.68,
+                    "tileOriginalId": null,
+                    "dataPath": "creo://EODATA/Sentinel-2/MSI/L1C/2018/12/27/S2B_MSIL1C_20181227T100419_N0207_R122_T33TUL_20181227T120856.SAFE/GRANULE/L1C_T33TUL_A009443_20181227T100616/IMG_DATA/T33TUL_20181227T100419_"
+                },
+                {
+                    "date": "2018-12-27T10:08:03Z",
+                    "productId": "S2B_MSIL1C_20181227T100419_N0207_R122_T33TVL_20181227T120856.SAFE",
+                    "shId": 28666354,
+                    "cloudCoverage": 33.68,
+                    "tileOriginalId": null,
+                    "dataPath": "creo://EODATA/Sentinel-2/MSI/L1C/2018/12/27/S2B_MSIL1C_20181227T100419_N0207_R122_T33TVL_20181227T120856.SAFE/GRANULE/L1C_T33TVL_A009443_20181227T100616/IMG_DATA/T33TVL_20181227T100419_"
+                },
+                {
+                    "date": "2018-12-27T10:07:52Z",
+                    "productId": "S2B_MSIL1C_20181227T100419_N0207_R122_T33TUM_20181227T120856.SAFE",
+                    "shId": 28664704,
+                    "cloudCoverage": 7.81,
+                    "tileOriginalId": null,
+                    "dataPath": "creo://EODATA/Sentinel-2/MSI/L1C/2018/12/27/S2B_MSIL1C_20181227T100419_N0207_R122_T33TUM_20181227T120856.SAFE/GRANULE/L1C_T33TUM_A009443_20181227T100616/IMG_DATA/T33TUM_20181227T100419_"
+                },
+                {
+                    "date": "2018-12-27T10:07:48Z",
+                    "productId": "S2B_MSIL1C_20181227T100419_N0207_R122_T33TVM_20181227T120856.SAFE",
+                    "shId": 28671623,
+                    "cloudCoverage": 0.07,
+                    "tileOriginalId": null,
+                    "dataPath": "creo://EODATA/Sentinel-2/MSI/L1C/2018/12/27/S2B_MSIL1C_20181227T100419_N0207_R122_T33TVM_20181227T120856.SAFE/GRANULE/L1C_T33TVM_A009443_20181227T100616/IMG_DATA/T33TVM_20181227T100419_"
+                }
+            ],
+            "dateTo": "2018-12-27T23:59:59Z",
+            "__idx": 0,
+            "dateFrom": "2018-12-27T00:00:00Z"
+        }
+    ]
+}
