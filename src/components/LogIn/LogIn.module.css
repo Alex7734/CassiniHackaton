@@ -53,28 +53,6 @@
     color: rgba(97, 119, 239, 0.25);
   }
 
-  input[type="text"], input[type="password"]{
-    padding: 10px;
-    height: 66px;
-    width: 370px;
-    font-size: larger;
-    padding-left: 70px;
-    box-shadow: 0px 3px 12px 2px #A6CBEB;
-    border: none;
-    background-color: #FAFEFE;
-    margin-bottom: 10px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    font-family: Nunito, sans-serif;
-  }
-
-  input[type="text"]::placeholder, input[type="password"]::placeholder{
-    filter: opacity(0.3);
-    color: #6177EF;
-  }
-
   .loginButton{
     font-family: Nunito, sans-serif;
     border-top-left-radius: 30px;

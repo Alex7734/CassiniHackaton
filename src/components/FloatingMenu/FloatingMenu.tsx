@@ -6,13 +6,13 @@ const BurgerMenu: React.FC = () => {
     <div className={style.burgerMenu}>
       <ul>
         <li>
-            <a href="http://localhost:5174/">
+            <a href="http://localhost:5173/">
               <div className={style.Bg1}>
                 <img src="images/white_logo.svg" alt="logo" className={style.Logo2} /> 
               </div>
             </a>
         </li>
-        <li><a href="http://localhost:5174/page-1">
+        <li><a href="http://localhost:5173/page-1">
               <div className={style.Bg2}>
                 <img src="images/party-horn-svgrepo-com.svg" alt="logo" className={style.Logo1} /> 
               </div>

@@ -32,14 +32,14 @@ function Sidebar() {
     }}
     style={{
       background: 'none',
-    border: 'none',
-    cursor: 'pointer',
-    padding: '10px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'relative',
-    zIndex: 3 // added zIndex
+      border: 'none',
+      cursor: 'pointer',
+      padding: '10px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      position: 'relative',
+      zIndex: 3
     }}
   >
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#6177EF">
